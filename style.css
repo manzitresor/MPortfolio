@@ -9,13 +9,14 @@ body{
     list-style: none;
     text-decoration: none;
 }
+
 .navbar{
     color:black;
     position:fixed;
     left: 35px;
-    top:30px;
-    width:250px;
-    height:80%;
+    top:110px;
+    width:150px;
+    height:60%;
     background:white;  
 }
 .navbar header{
@@ -45,16 +46,32 @@ ul li:hover a{
 }
 .navbar ul a i{
     margin-top: 16px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 .navbar ul li span{
     padding-left: 30px;
     height: 100%;
     width:100%;
     line-height: 30px;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
     box-sizing: border-box;
     text-transform: uppercase;
-    margin-left: 50px;
+    margin-left: 20px;
+}
+.menu {
+    color:black;
+    background:white;  
+    height:30px;
+    width: 150px;
+    margin-left: 35px;
+    margin-top:20px;   
+}
+
+.menu a{
+    height: 100%;
+    width:100%;
+    color:black;
+    padding:40px;
+    font-size: 20px;
 }
