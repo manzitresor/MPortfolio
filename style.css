@@ -60,12 +60,13 @@ ul li:hover a{
     margin-left: 20px;
 }
 .menu {
+    position: fixed;
     color:black;
     background:white;  
     height:30px;
     width: 150px;
     margin-left: 35px;
-    margin-top:20px;   
+    margin-top:30px;   
 }
 
 .menu a{
@@ -74,4 +75,154 @@ ul li:hover a{
     color:black;
     padding:40px;
     font-size: 20px;
+}
+.cart{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 208px;
+top: 27px;
+background:rgba(122, 223, 120, 0.57);
+
+}
+
+.img{
+position: absolute;
+width: 450px;
+height: 450px;
+left: 30px;
+top: 30px;
+background: url('WhatsApp Image 2022-05-24 at 3.40.28 PM.jpeg');
+background-size: cover;
+}
+.card{
+position: absolute;
+width: 450px;
+height: 200px;
+left: 30px;
+top: 350px;
+background: #FFFFFF;
+}
+.card .name{
+    /* position: absolute; */
+    width: 255px;
+    height: 52px; 
+    margin-left: 130px; 
+    top: 529px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 52px;   
+}
+.card .work{
+    width: 255px;
+    height: 52px; 
+    margin-left: 130px; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px; 
+    color:#6DBB60;
+}
+.icons ul{
+    display: flex;
+    margin-left:150px;
+    line-height: 30px;
+}
+.icons ul li i{
+    margin-left:6px;
+    font-size: 20px;
+}
+.card hr{
+width: 450px;
+height: 0px;
+left: 306px;
+top: 789px;
+border: 0.5px solid #E0D8D8;
+}
+.download {
+    display:flex;
+    cursor: pointer;
+}
+.download p{
+margin-left: 30px;
+margin-top: 20px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+color: #000000;
+}
+.download i{
+width: 24px;
+height: 24px;
+margin-left: 16px;
+margin-top: 30px;
+}
+.con{
+    display: flex;
+    cursor: pointer;
+}
+.con p{
+margin-left: 250px;
+margin-top: -26px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #000000;
+}
+.con i{
+   margin-top:-26px;
+   margin-left:16px;
+}
+
+.cart2{
+position: absolute;
+width: 580px;
+height: 480px;
+margin-left: 680px;
+margin-top: 75px;
+background: #FFFFFF;
+}
+.title{
+margin-left:10px;
+margin-top:12px; 
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 46px;
+}
+.title span{
+    color:#6DBB60;
+}
+.title hr{
+width: 550px;
+height: 0px;
+left: 306px;
+top: 789px;
+border: 0.5px solid #E0D8D8;
+}
+.ob{
+width: 300px;
+height: 0px;
+margin-left: 150px;
+margin-top:150px;
+border: 0.5px solid #E0D8D8;
+transform: rotate(89.7deg);
+}
+.content p{
+ /* position: absolute; */
+width: 300px;
+height: 500px;
+margin-left: 7px;
+margin-top:-130px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+color: #000000;
 }
