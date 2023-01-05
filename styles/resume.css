@@ -1,0 +1,354 @@
+body{
+    font-family:sans-serif;
+    background:#A4D991;
+
+}
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    color:black;
+    position:fixed;
+    left: 35px;
+    top:110px;
+    width:150px;
+    height:60%;
+    background:white;  
+}
+.navbar header{
+    font-size: 22px;
+    color:black;
+    text-align: center;
+    line-height: 70px;
+    background:white;
+    user-select: none;
+}
+
+.navbar ul a{
+    display: flex;
+    height: 100%;
+    width:100%;
+    line-height: 65px;
+    font-size: 20px;
+    color:black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #E0D8D8;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.navbar ul a i{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.navbar ul li span{
+    padding-left: 30px;
+    height: 100%;
+    width:100%;
+    line-height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.menu {
+    position: fixed;
+    color:black;
+    background:white;  
+    height:30px;
+    width: 150px;
+    margin-left: 35px;
+    margin-top:30px;   
+}
+
+.menu a{
+    height: 100%;
+    width:100%;
+    color:black;
+    padding:40px;
+    font-size: 20px;
+}
+.cart{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 208px;
+top: 27px;
+background:rgba(122, 223, 120, 0.57);
+
+}
+
+.img{
+position: absolute;
+width: 450px;
+height: 450px;
+left: 30px;
+top: 30px;
+background: url('../images/WhatsApp\ Image\ 2022-05-24\ at\ 3.40.28\ PM.jpeg');
+background-size: cover;
+}
+.card{
+position: absolute;
+width: 450px;
+height: 200px;
+left: 30px;
+top: 350px;
+background: #FFFFFF;
+}
+.card .name{
+    /* position: absolute; */
+    width: 255px;
+    height: 52px; 
+    margin-left: 130px; 
+    top: 529px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 52px;   
+}
+.card .work{
+    width: 255px;
+    height: 52px; 
+    margin-left: 130px; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px; 
+    color:#6DBB60;
+}
+.icons ul{
+    display: flex;
+    margin-left:150px;
+    line-height: 30px;
+}
+.icons ul li i{
+    margin-left:6px;
+    font-size: 20px;
+}
+.line0{
+width: 450px;
+height: 0px;
+left: 306px;
+top: 789px;
+border: 0.5px solid #E0D8D8;
+opacity: .5;
+}
+.line{
+width: 90px;
+height: 0px;
+margin-left: 170px;
+margin-top:-11px;
+border: 0.5px solid #E0D8D8;
+transform: rotate(89.7deg);
+opacity: .5;
+}
+.download {
+    display:flex;
+    cursor: pointer;
+}
+.download p{
+margin-left: 30px;
+margin-top: 20px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+color: #000000;
+}
+.download i{
+width: 24px;
+height: 24px;
+margin-left: 16px;
+margin-top: 30px;
+}
+.con{
+    display: flex;
+    cursor: pointer;
+}
+.con p{
+margin-left: 250px;
+margin-top: -16px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #000000;
+}
+.con i{
+   margin-top:-16px;
+   margin-left:16px;
+}
+
+.cart2{
+position: absolute;
+width: 580px;
+height: 480px;
+margin-left: 680px;
+margin-top: 75px;
+background: #FFFFFF;
+}
+.title{
+margin-left:10px;
+margin-top:12px; 
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 46px;
+}
+.title span{
+    color:#6DBB60;
+}
+.title hr{
+width: 550px;
+height: 0px;
+left: 306px;
+top: 789px;
+border: 0.5px solid #E0D8D8;
+opacity: .3;
+}
+.ob{
+width: 243px;
+height: 0px;
+margin-left: 180px;
+margin-top:120px;
+border: 0.5px solid #E0D8D8;
+transform: rotate(89.7deg);
+opacity: .4;
+}
+.experience {
+    display: flex;
+    margin-top:-90px;
+    margin-left:10px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    cursor: pointer;
+}
+.experience i{
+    color:#6DBB60;
+    padding-right: 10px;
+    
+}
+.education{
+    display: flex;
+    margin-top:-30px;
+    margin-left:300px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    cursor: pointer; 
+}
+.education i{
+    color:#6DBB60;
+    padding-right: 10px;  
+}
+
+.expline {
+width: 250px;
+height: 0px;
+margin-left: 30px;
+margin-top: 7px;
+border: 0.5px solid #E0D8D8;
+}
+.eduline{
+width: 250px;
+height: 0px;
+margin-left: 320px;
+margin-top: 8px;
+border: 0.5px solid #E0D8D8;
+}
+.expyear{
+width: 100px;
+height: 17px;
+margin-left:40px;
+padding-left: 20px;
+margin-top:20px;
+background: #FFFFFF;
+border: 2px solid #6DBB60;
+border-radius: 9px;
+}
+.eduyear{
+    width: 100px;
+    height: 17px;
+    margin-left:350px;
+    padding-left: 20px;
+    margin-top:-18px;
+    background: #FFFFFF;
+    border: 2px solid #EFE5E5;
+    border-radius: 9px;
+}
+.content1{
+    width: 250px;
+    margin-top:30px;
+    margin-left:20px;
+
+}
+.content1 h1{
+width: 306px;
+height: 39px;
+left: 989px;
+top: 450px;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 39px;
+
+}
+.content1 p{
+    padding:10px;
+    line-height: 25px;
+
+}
+.content1 h2{
+    width: 186px;
+    height: 30px;
+    margin-left:30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    color: #BFBBBB;
+}
+.content2{
+    width: 250px;
+    margin-top:-160px;
+    margin-left:320px;
+}
+.content2 h1{
+    width: 306px;
+    height: 39px;
+    left: 989px;
+    top: 450px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 39px;
+    
+
+}
+.content2 h2{
+    width: 186px;
+    height: 30px;
+    margin-left:30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    color: #BFBBBB;
+
+}
+.content2 p{
+    padding:10px;
+    line-height: 25px;
+
+}

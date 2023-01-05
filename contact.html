@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./styles/contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="menu">
+            <a href="#">
+                <i class="fa fa-align-left" aria-hidden="true"></i>
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li>
+                <!-- <li><a href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Works</a></li> -->
+                <a href="./index.html"><i class="fa fa-user" aria-hidden="true"></i>   
+                </a> 
+                <span>About</span>  
+                </li>
+                <li><a href="./resume.html"><i class="fa fa-university" aria-hidden="true"></i></a>
+                    <span>Resume</span>
+                </li>
+                <li><a href="./works.html"><i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+                <span>
+                    Works
+                </span>
+                </li>
+                <li><a href="./blog.html"><i class="fa fa-commenting" aria-hidden="true"></i></a>
+                    <span>
+                       blog
+                    </span>
+                    </li>
+                <li><a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
+                <span>Contact</span>
+                </li>
+            </ul>
+        </nav>
+       </div>
+       <section>
+        <div class="cart">
+            
+            <div class="img"></div>
+            <div class="card">
+              <p class="name">MANZI Tresor</p>
+              <span class="work">Software Developer</span>
+              <div class="icons">
+               <ul>
+                   <li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+                   <li><i class="fa fa-github" aria-hidden="true"></i></li>
+                   <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+               </ul>
+              </div>
+              <hr class="line0">
+              <div class="download">
+               <p>DOWNLOAD CV</p>
+               <i class="fa fa-download" aria-hidden="true"></i>
+              </div>
+              <hr class="line">
+              <div class="con">
+               <p>CONTACT ME</p>
+               <i class="fa fa-exchange" aria-hidden="true"></i>
+              </div>
+            </div>
+           </div>
+
+           <div class="cart2">
+            
+            <div class="title">
+            <span>Contact</span>  Form
+            <hr>
+            <form onSubmit="event.preventDefault(); validateForm()">
+                <small class="error"></small>
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name" class="contactName">
+                
+                <input type="text" name="email" id="email" placeholder="Email Address" class="email">
+                <small class="error"></small>
+                <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                <button>Send message <i class="fa fa-exchange" aria-hidden="true"></i></button>
+                <small class="error"></small>
+            </form>
+            </div>
+        </div>
+       </section>
+       <script src="./script.js"></script>
+    
+</body>
+</html>
